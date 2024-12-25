@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  adguard-dns-ip-updater:
+    build: .
+    environment:
+      - URL_TO_PING=${URL_TO_PING}
+      - INTERVAL_MS=${INTERVAL_MS:-3600000}
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
