@@ -18,7 +18,7 @@ AdGuard DNS IP Updater is a Node.js application designed to automatically update
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/adguard-dns-ip-updater.git
+   git clone https://github.com/lucabarbos/adguard-dns-ip-updater.git
    cd adguard-dns-ip-updater
    ```
 
