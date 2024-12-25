@@ -1,0 +1,21 @@
+{
+  "name": "adguard-dns-ip-updater",
+  "version": "1.0.0",
+  "description": "A Node.js service that periodically updates the IP address for AdGuard DNS by sending a request to the LinkIP endpoint.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "adguard",
+    "dns",
+    "ip",
+    "updater"
+  ],
+  "author": "Lucas Barbosa <contato@lucasbarbosa.dev> (https://lucasbarbosa.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "3.3.2"
+  }
+}
