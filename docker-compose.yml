@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   adguard-dns-ip-updater:
     build: .
